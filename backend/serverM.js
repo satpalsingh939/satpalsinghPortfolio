@@ -1,11 +1,12 @@
-const express = require("express");
-const cors = require("cors");
-const bodyParser = require("body-parser");
-const mongoose = require("mongoose");
-const userD = require("./modoDBSchema/userD");
 
-const { config } = require("dotenv");
-config();
+import express from "express";
+import cors from "cors";
+import bodyParser from "body-parser"; 
+import mongoose from "mongoose";
+import userD from "./modoDBSchema/userD.js";
+
+import dotenv from "dotenv";
+dotenv.config();
 
 const app = express();
 app.use(cors());
