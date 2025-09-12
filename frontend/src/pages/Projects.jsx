@@ -45,6 +45,15 @@ export default function Portfolio() {
           </div>
         </div>
 
+ <div className={styles.portfolioCard}>
+          <img src="/projectself.png" alt="E-commerce" className={styles.portfolioImg} />
+          <h4>Caffee Landing Page</h4>
+          <div className={styles.btnGroup}>
+            <a href="https://satpalsingh-portfolio.vercel.app/" target="_blank" className={styles.btn}>Live Demo</a>
+            <a href="https://github.com/satpalsingh939/satpalsinghPortfolio" target="_blank" className={styles.btnOutline}>GitHub</a>
+          </div>
+        </div>
+
         <div className={styles.portfolioCard}>
           <img src="/projectC.png" alt="E-commerce" className={styles.portfolioImg} />
           <h4>Calculator</h4>
