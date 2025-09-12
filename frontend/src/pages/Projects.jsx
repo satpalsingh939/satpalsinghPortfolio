@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '/public/css/Project.module.css'
+import styles from '/css/Project.module.css'
 
 export default function Portfolio() {
   return (
