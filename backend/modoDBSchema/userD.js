@@ -1,0 +1,19 @@
+const mongoose = require("mongoose");
+
+const userDSchema = new mongoose.Schema({
+    name: {
+        type: String,
+        required: true
+    },
+    email: {
+        type: String,
+        required: true
+    },
+    message: {
+        type: String,
+        required: true
+    },
+    date: { type: Date, default: Date.now }
+});
+
+const userD = mongoose.model("userD", userDSchema);
