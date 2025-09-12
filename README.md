@@ -1,16 +1,4 @@
-
-cd frontend
-npm install
-npm run dev
-
- http://localhost:5173
-
------
-
-cd backend
-npm install
-node server.js
-
- http://localhost:5000
+Hello friends satpal here this is my personal portfolio website.
+implement using MERN stack ,i am a full stack developer and ui/ux designer.
 
 
