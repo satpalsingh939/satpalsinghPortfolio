@@ -9,8 +9,14 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const app = express();
-app.use(cors());
+// app.use(cors());
 app.use(bodyParser.json());
+
+app.use(cors({
+  origin: "https://satpalsingh-portfolio.vercel.app",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
 
 const mongoURL = process.env.MONGODB_URL; 
 mongoose.connect(mongoURL, {
