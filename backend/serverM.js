@@ -40,7 +40,7 @@ app.post("/contact", async (req, res) => {
 
 app.get("/messages", async (req, res) => {
   try {
-    const messages = await Message.find().sort({ date: -1 });
+    const messages = await userD.find().sort({ date: -1 });
     res.json(messages);
   } catch (err) {
     console.error(err);

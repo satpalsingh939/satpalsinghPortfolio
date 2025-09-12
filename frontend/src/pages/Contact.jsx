@@ -14,8 +14,8 @@ export default function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault()
     try {
-      // await axios.post('http://localhost:5000/contact', form)
-      await axios.post('https://satpalsinghportfolio.onrender.com/contact', form)
+      await axios.post('http://localhost:5000/contact', form)
+      // await axios.post('https://satpalsinghportfolio.onrender.com/contact', form)
 
       // setStatus('✅ Message sent successfully!')
       alert('✅ Message sent successfully!')
