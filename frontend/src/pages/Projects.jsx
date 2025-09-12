@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '/public/css/Project.module.css'
+import styles from '../css/Project.module.css'
 
 export default function Portfolio() {
   return (
@@ -9,7 +9,6 @@ export default function Portfolio() {
       </h2>
 
       <div className={styles.portfolioGrid}>
-
 
         <div className={styles.portfolioCard}>
           <img src="/finalANGELP.png" alt="E-commerce" className={styles.portfolioImg} />

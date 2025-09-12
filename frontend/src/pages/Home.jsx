@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
-import styles from "/public/css/home.module.css";
+import styles from "../css/home.module.css";
 
 export default function Home() {
   const roles = ["Full Stack Developer" , "UI/UX Designer" , "MERN Stack Developer"];
