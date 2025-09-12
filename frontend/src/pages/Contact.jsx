@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
 import axios from 'axios'
+<<<<<<< HEAD
 import styles from '../css/contact.module.css'
+=======
+import styles from '/css/contact.module.css'
+>>>>>>> a9f47c60f82b1b92e9d49953eed1df5335767df4
 import { MdEmail, MdLocationOn } from "react-icons/md";
 import { FiPhone } from "react-icons/fi";
 

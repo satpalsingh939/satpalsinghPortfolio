@@ -1,5 +1,9 @@
 import React from "react";
+<<<<<<< HEAD
 import styles from "../css/about.module.css";
+=======
+import styles from "/css/about.module.css";
+>>>>>>> a9f47c60f82b1b92e9d49953eed1df5335767df4
 
 export default function About() {
   return (
