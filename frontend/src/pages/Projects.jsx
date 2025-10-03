@@ -20,10 +20,28 @@ export default function Portfolio() {
         </div>
 
         <div className={styles.portfolioCard}>
+          <img src="/quiz.png" alt="E-commerce" className={styles.portfolioImg} />
+          <h4>SkillUpU - Quiz</h4>
+          <div className={styles.btnGroup}>
+            <a href="https://skillupu-quiz-s.vercel.app/" target="_blank" className={styles.btn}>Live Demo</a>
+            <a href="https://github.com/satpalsingh939/skillUpU_Quiz_S" target="_blank" className={styles.btnOutline}>GitHub</a>
+          </div>
+        </div>
+
+        <div className={styles.portfolioCard}>
           <img src="/projectF.png" alt="E-commerce" className={styles.portfolioImg} />
           <h4>UI/UX [Soft-Drink Design] </h4>
           <div className={styles.btnGroup}>
             <a href="https://www.figma.com/proto/RELrG6nRRcA1gMABGa23Fn/FirstProject-UI-UX?node-id=32-2&starting-point-node-id=32%3A2&t=zZWQUV3MQciUOiwZ-1" target="_blank" className={styles.btn}>Live Demo</a>
+          </div>
+        </div>
+
+        <div className={styles.portfolioCard}>
+          <img src="/projectself.png" alt="E-commerce" className={styles.portfolioImg} />
+          <h4>Personal Portfolio</h4>
+          <div className={styles.btnGroup}>
+            <a href="https://satpalsingh-portfolio.vercel.app/" target="_blank" className={styles.btn}>Live Demo</a>
+            <a href="https://github.com/satpalsingh939/satpalsinghPortfolio" target="_blank" className={styles.btnOutline}>GitHub</a>
           </div>
         </div>
 
@@ -45,21 +63,21 @@ export default function Portfolio() {
           </div>
         </div>
 
- <div className={styles.portfolioCard}>
-          <img src="/projectself.png" alt="E-commerce" className={styles.portfolioImg} />
-          <h4>Caffee Landing Page</h4>
+        <div className={styles.portfolioCard}>
+          <img src="/homeproject.png" alt="E-commerce" className={styles.portfolioImg} />
+          <h4>HouseDetails - Landing Page</h4>
           <div className={styles.btnGroup}>
-            <a href="https://satpalsingh-portfolio.vercel.app/" target="_blank" className={styles.btn}>Live Demo</a>
-            <a href="https://github.com/satpalsingh939/satpalsinghPortfolio" target="_blank" className={styles.btnOutline}>GitHub</a>
+            <a href="https://house-details.vercel.app/" target="_blank" className={styles.btn}>Live Demo</a>
+            <a href="https://github.com/satpalsingh939/HouseDetails" target="_blank" className={styles.btnOutline}>GitHub</a>
           </div>
         </div>
 
         <div className={styles.portfolioCard}>
-          <img src="/projectC.png" alt="E-commerce" className={styles.portfolioImg} />
-          <h4>Calculator</h4>
+          <img src="/projectLCaffe.png" alt="E-commerce" className={styles.portfolioImg} />
+          <h4>Caffee Landing Page</h4>
           <div className={styles.btnGroup}>
-            <a href="https://satpalsingh939.github.io/calculator-by-satpal/" target="_blank" className={styles.btn}>Live Demo</a>
-            <a href="https://github.com/satpalsingh939/calculator-by-satpal" target="_blank" className={styles.btnOutline}>GitHub</a>
+            <a href="https://satpalsingh939.github.io/Caffee-landing-page/" target="_blank" className={styles.btn}>Live Demo</a>
+            <a href="https://github.com/satpalsingh939/Caffee-landing-page" target="_blank" className={styles.btnOutline}>GitHub</a>
           </div>
         </div>
 
@@ -73,11 +91,11 @@ export default function Portfolio() {
         </div>
 
         <div className={styles.portfolioCard}>
-          <img src="/homeproject.png" alt="E-commerce" className={styles.portfolioImg} />
-          <h4>HouseDetails - Landing Page</h4>
+          <img src="/projectC.png" alt="E-commerce" className={styles.portfolioImg} />
+          <h4>Calculator</h4>
           <div className={styles.btnGroup}>
-            <a href="https://house-details.vercel.app/" target="_blank" className={styles.btn}>Live Demo</a>
-            <a href="https://github.com/satpalsingh939/HouseDetails" target="_blank" className={styles.btnOutline}>GitHub</a>
+            <a href="https://satpalsingh939.github.io/calculator-by-satpal/" target="_blank" className={styles.btn}>Live Demo</a>
+            <a href="https://github.com/satpalsingh939/calculator-by-satpal" target="_blank" className={styles.btnOutline}>GitHub</a>
           </div>
         </div>
 
@@ -89,16 +107,6 @@ export default function Portfolio() {
             <a href="https://github.com/satpalsingh939/tik-tac-game" target="_blank" className={styles.btnOutline}>GitHub</a>
           </div>
         </div>
-
-        <div className={styles.portfolioCard}>
-          <img src="/projectLCaffe.png" alt="E-commerce" className={styles.portfolioImg} />
-          <h4>Caffee Landing Page</h4>
-          <div className={styles.btnGroup}>
-            <a href="https://satpalsingh939.github.io/Caffee-landing-page/" target="_blank" className={styles.btn}>Live Demo</a>
-            <a href="https://github.com/satpalsingh939/Caffee-landing-page" target="_blank" className={styles.btnOutline}>GitHub</a>
-          </div>
-        </div>
-
 
 
       </div>

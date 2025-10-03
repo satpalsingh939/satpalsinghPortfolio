@@ -20,7 +20,7 @@
 /* Grid Layout */
 .portfolioGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
   gap: 30px;
 }
 
@@ -37,7 +37,7 @@
 
 .portfolioImg {
   width: 100%;
-  height: 200px;
+  height: 220px;
   object-fit: cover;
   border-radius: 12px;
   margin-bottom: 15px;
