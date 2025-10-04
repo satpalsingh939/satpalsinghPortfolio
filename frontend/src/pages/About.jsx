@@ -22,7 +22,7 @@ export default function About() {
           </p>
 
           <p className={styles.aboutText}>
-            I am a hardworking, self-motivated, and problem-solving person who loves learning new skills and applying them in real-world projects. My passion lies in becoming a skilled Full Stack Developer and building applications that create real impact.
+            I am also work with team as a team-member and problem-solving person who loves learning new skills and applying them in real-world projects. My passion lies in becoming a skilled Full Stack Developer and building applications that create real impact.
             I love building modern responsive websites
             with a strong focus on performance and UI/UX design.
           </p>
