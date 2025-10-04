@@ -21,7 +21,7 @@ export default function Portfolio() {
 
         <div className={styles.portfolioCard}>
           <img src="/quiz.png" alt="E-commerce" className={styles.portfolioImg} />
-          <h4>SkillUpU - Quiz</h4>
+          <h4>SkillUpU - Quiz [MERN Stack]</h4>
           <div className={styles.btnGroup}>
             <a href="https://skillupu-quiz-s.vercel.app/" target="_blank" className={styles.btn}>Live Demo</a>
             <a href="https://github.com/satpalsingh939/skillUpU_Quiz_S" target="_blank" className={styles.btnOutline}>GitHub</a>
